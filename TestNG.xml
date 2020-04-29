@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "XYZBankingProj">
+
+	<listeners>
+	<listener class-name ="com.XYZBanking.utilities.Reporting" />
+	</listeners>		
+	
+	<test name="BankinApp Tests chrome">
+		<parameter name="browser" value="chrome" />
+		 <parameter name="url" value="http://demo.guru99.com/V4"/>
+		<classes >
+			 <!--  <class name = "com.XYZBanking.testcases.TC001_UserLoginTest"/>  -->
+			 <class name = "com.XYZBanking.testcases.TC002_DDT_Login"/>
+			<class name = "com.XYZBanking.testcases.TC003_AddCutomer"/>		
+		</classes>
+		
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XYZBankingProj]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.XYZBanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankinApp Tests chrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://demo.guru99.com/V4"/>
+    <classes>
+      <class name="com.XYZBanking.testcases.TC002_DDT_Login">
+        <methods>
+          <include name="loginDDT" invocation-numbers="0 1 3"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.XYZBanking.testcases.TC002_DDT_Login -->
+    </classes>
+  </test> <!-- BankinApp Tests chrome(failed) -->
+</suite> <!-- Failed suite [XYZBankingProj] -->

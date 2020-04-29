@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 103.163 s <<< FAILURE! - in TestSuite
+loginDDT(com.XYZBanking.testcases.TC002_DDT_Login)  Time elapsed: 11.644 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.XYZBanking.testcases.TC002_DDT_Login.loginDDT(TC002_DDT_Login.java:29)
+
+loginDDT(com.XYZBanking.testcases.TC002_DDT_Login)  Time elapsed: 7.199 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.XYZBanking.testcases.TC002_DDT_Login.loginDDT(TC002_DDT_Login.java:29)
+
+loginDDT(com.XYZBanking.testcases.TC002_DDT_Login)  Time elapsed: 4.154 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.XYZBanking.testcases.TC002_DDT_Login.loginDDT(TC002_DDT_Login.java:29)
+

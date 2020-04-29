@@ -1,0 +1,9 @@
+com\XYZBanking\testcases\TC001_UserLoginTest.class
+com\XYZBanking\utilities\ReadConfig.class
+com\XYZBanking\pageObjects\addCustomerPage.class
+com\XYZBanking\testcases\TC002_DDT_Login.class
+com\XYZBanking\testcases\TC003_AddCutomer.class
+com\XYZBanking\utilities\Reporting.class
+com\XYZBanking\pageObjects\LoginPage.class
+com\XYZBanking\testcases\BaseClass.class
+com\XYZBanking\utilities\XLUtils.class
